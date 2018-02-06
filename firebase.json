@@ -1,0 +1,22 @@
+{
+    "hosting": {
+      "public": "public",
+      "redirects": [ {
+        "source" : "/foo",
+        "destination" : "http://google.com",
+        "type" : 301
+      },
+      {
+          "source" : "/resume",
+          "destination" : "https://www.linkedin.com/in/protechman",
+          "type" : 301
+      }
+    ],
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+
+    }
+  }
