@@ -136,7 +136,7 @@ h3 {
 }
 h4,
 h5 {
-    /*font-family: 'roboto', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
     font-weight: 300;
     margin: 0;
     line-height: 2rem;
@@ -185,7 +185,7 @@ p:last-child {
 .home-wrap h5,
 .home-wrap p {
     color: #ffffff;
-    /*font-family: 'roboto', sans-serif;*/
+    /*font-family: 'Montserrat', sans-serif;*/
 }
 .text {
     color: #333333;
@@ -247,7 +247,7 @@ Section
 section .subtitle h5 {
     margin-top: 10px;
     font-size: 1.3rem;
-    font-family: 'roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .parallax-section {
     max-width: 100%;
