@@ -202,7 +202,7 @@ p:last-child {
 }
 
 .lightbg {
-    background-color: #dddfeb;
+    background-color: #F4F4F4;
 }
 .transition {
     -webkit-transition: all 300ms linear;
@@ -482,14 +482,14 @@ textarea::-ms-input-placeholder
     font-weight:900;
     font-family: 'Montserrat', sans-serif;;
     letter-spacing:12px;
-    border-top:2px solid #ecf0f2;
-    border-bottom:2px solid #ecf0f2;
+    border-top:2px solid #fff;
+    border-bottom:2px solid #fff;
     padding:20px 0;
 } 
 .home-content p{
     font-size:25px;
     margin-top:20px;
-    color:#ecf0f2;
+    color:#fff;
 }
 
 /*For About Us Section */
@@ -590,12 +590,12 @@ textarea::-ms-input-placeholder
     margin-top:30px;
 }
 .experience-content{
-    background: rgba(51, 61, 71, .7);
+    background: #F4F4F4;
     padding:60px 40px;
     color:#fff;
 }
 .experience-content h4{
-    color:#fff;
+    color:#525252;
     text-transform:uppercase;
     font-size:26px;
     font-family: 'Montserrat', sans-serif;;
@@ -603,15 +603,15 @@ textarea::-ms-input-placeholder
     margin-bottom:50px;
 }
 .experience-content .content-details h5{
-    color:#fff;
+    color:#525252;
     font-size:18px;
 }
 .experience-content .content-details h6{
-    color:#ecf0f2;
+    color:#525252;
     font-size:16px;
 }
 .experience-content .content-details p{
-    color:#ecf0f2;
+    color:#525252;
 }
 .experience-content .content-details.content-border{
     border-bottom:1px solid #dadada;
@@ -665,7 +665,7 @@ textarea::-ms-input-placeholder
 /*For Contact Section*/
 
 .contact{
-    background-color: #dddfeb;
+    background-color: #F4F4F4;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
@@ -675,12 +675,12 @@ textarea::-ms-input-placeholder
 }
 
 .contact-area{
-    background: rgba(51, 61, 71, .7);
+    background: #fff;
     padding:60px 40px 147px 40px;
     color:#fff;
 }
 .contact-wrapper h4{
-    color:#fff;
+    color:##525252;
     text-transform:uppercase;
     font-size:26px;
     font-family: 'Montserrat', sans-serif;;
@@ -688,7 +688,7 @@ textarea::-ms-input-placeholder
     margin-bottom:50px;
 }
 .form-control {
-    border: 1px solid #ffffff;
+    border: 1px solid ##525252;
     font-size: 16px;
     height: 50px;
     background: transparent;
@@ -700,9 +700,9 @@ textarea::-ms-input-placeholder
     margin-top:20px;
 }
 .contact-details{
-    background: rgba(51, 61, 71, .7);
+    background: #fff;
     padding:60px 40px;
-    color:#fff;
+    color:#525252;
     margin-bottom:20px;
 }
 .contact-details h4{
@@ -710,7 +710,7 @@ textarea::-ms-input-placeholder
 }
 .contact-details p{
     margin: 0 0 10px;
-    color:#ffffff;
+    color:#525252;
 }
 
 /* For Footer Area */

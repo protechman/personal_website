@@ -1,156 +1,366 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Hey there! I'm Caner</title>
+        <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link href="https://fonts.googleapis.com/css?family=Rubik:400,500,700&amp;subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--        <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css">-->
 
-        <title>R.Caner Yildirim : Home</title>
-        <link rel="icon" type="image/icon" href="assets/images/tabicon.ico">
 
-        <link rel="stylesheet" type="text/css" href="">
-        <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-        <link href="assets/css/bootstrap-theme.min.css" rel="stylesheet">
-        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Rubik:400,400i,500,700,700i&amp;subset=latin-ext" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cardo:400,700&amp;subset=latin-ext" rel="stylesheet">
-        <link href="assets/css/main.css" rel="stylesheet">
-        <link rel="icon" href="assets/images/logo.png">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+        <!--For Plugins external css-->
+        <link rel="stylesheet" href="assets/css/plugins.css" />
         
+        <link rel="stylesheet" href="assets/css/linearicons-web-font.css" />
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+
+        <!--Theme custom css -->
+        <link rel="stylesheet" href="assets/css/style.css">
+
+        <!--Theme Responsive css-->
+        <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <script src="assets/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
-
     <body>
-        <div id="index">                                           <!-- Index starts here -->
-            <div class="container main">
-                <div class="row home">
-                    <div id = "index_left" class="col-md-6 left">
-                        <img class="img-responsive img-rabbit" src="assets/images/home.jpg">
-                    </div>
-                    <div id = "index_right" class="col-md-6 text-center right">
-                        <div class="logo">
-                            <h4>I'm Batman!</h4>
-                        </div>
-                        <p class="home-description">
-                            Hi, I am Caner, UX Designer & Researcher from Istanbul, Turkey. I am passionate about design, technology and interaction. 
-                        </p>
-                        <div class="btn-group-vertical custom_btn animated slideinright">
-                            <div id="about" class="btn btn-rabbit">About</div>
-                            <div id="work" class="btn btn-rabbit">Work</div>
-                            <div id="contact" class="btn btn-rabbit">Contact</div>
-                        </div>      
-                        <div class="social">
-                            <a href="https://medium.com/@resulcaneryildirim" target="_blank"><i class="fa fa-medium" aria-hidden="true"></i></a>
-                            <a href="https://twitter.com/protechman" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                            <a href="https://linkedin.com/in/protechman" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        </div>
-                    </div>
-                </div>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
 
+		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
+
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#home"><span>Home</span></a></li>
+                <li><a href="#about"><span>About Me</span></a></li>
+                <li><a href="#features"><span>Features</span></a></li>
+                <li><a href="#experience"><span>Experience</span></a></li>
+                <li><a href="#portfolio"><span>Portfolio</span></a></li>
                 
-            </div>
-        </div>                                                      <!-- index ends here -->
+            </ul>
+            <a href="#0" class="cd-close-menu">Close<span></span></a>
+        </nav>
 
-        <div id="about_scroll" class="pages ">                      <!-- about strats here  -->
-            <div class="container main hello">
-                <div class="row">
-                    <div class="col-md-6 left" id="about_left">
-                        <img class="img-responsive img-rabbit" src="assets/images/about.jpg">
-                    </div>
-
-                    <div class="col-md-6 right" id="about_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>About</h2>
-                            <div class="marker">a</div>
-                        </div>
-                        <p class='subtitle'>Hi, I am Caner, Experience Designer & Researcher from Istanbul, Turkey.
-                        </p>
-                        <p class="info">I mainly focused on the design and marketing of mobile applications. Passionate about good UX, design, technology and startups. </p>
-
-						<p class="info"> Since 2012 I've been working with compainies and startups to help them to understand their customers and products. My aim is to improve my clients' products and make them and their users happy. Today, I work at Tmob, a design & development agency in Istanbul making and creating apps that users love. </p>
-
-						<p class="info"> Also, I have been a user group co-prganizer at GDG Istanbul since 2013, organizing, participating, and speaking at events. I share my experience in User Experience via blog posts, conferences or workshops at Droidcon, DevFest, and other conferences.</p>  
-                    	<a href="https://linkedin.com/in/protechman" target="_blank"><div class="btn btn-rabbit">Resume</div></a>
-                    </div>
-                </div>
-            </div>            
-        </div>                                                                <!-- About ends here -->
-
-
-        
-        <div id="work_scroll" class="pages">                                  <!-- Work starts here -->
-            <div class="container main hello">
-                <div class="row">
-                    <div class="col-md-6" id="work_left">
-                        <div id="owl-demo" class="owl-carousel owl-theme">
-                            <div class="item"><img class="img-responsive img-rabbit" src="assets/images/work.jpg"></div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6" id="work_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Work</h2>
-                            <div class="marker">w</div>
-                        </div>
-                        <p class='subtitle'>This is a selection of my web design and development work. I've been involve in many different types of project.
-                        </p>
-                        <p class="info">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
-                    </div>
-                </div>
-            </div>    
-        </div>                                                                 <!-- Work ends here  -->
-
-
-        <div id="contact_scroll" class="pages">                             <!-- Contact starts here -->
-            <div class="container main">
-                <div class="row">
-                    <div class="col-md-6 left" id="contact_left">
-                        <img class="img-responsive img-rabbit" src="assets/images/contact.jpg">
-                    </div>
-
-                    <div class="col-md-6 right" id="contact_right">
-                        <a href="#index" class="btn btn-rabbit back"> <i class="fa fa-angle-left" aria-hidden="true"></i> Back to Home </a>
-                        <div id="watermark">
-                            <h2 class="page-title" text-center>Contact</h2>
-                            <div class="marker">c</div>
-                        </div>
-                        <p class='subtitle'>I'm based in the beautiful city of Turkey, Istanbul where two continents meet. Drop me a line.
-                        </p>
-                        <!-- form -->
-                        <form class="form_edit"> 
-                            <div class="form-group">
-                                <input type="name" class="form-control" id="exampleInputName" placeholder="Name">
-                            </div>
-
-                            <div class="form-group">
-                            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-                            </div>
-
-                            <div class="form-group">
-                            <textarea class="form-control" rows="5" placeholder="Message"></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-rabbit submit">Send Message</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-       
-            <footer class="text-center">
-                <div class="container bottom">
+        <!--Home page style-->
+        <header id="home" class="home home-main-content">
+            <div class="overlay sections">
+                <div class="container text-center">
                     <div class="row">
-                        <div class="col-sm-12">
-                            <p>Made with <i class="fa fa-heartbeat" aria-hidden="true"></i> by <a href="https://themewagon.com/">Themewagon</a></p>
+                        <div class="div-menu">
+                            <header class="cd-header">
+                                <div id="cd-logo">
+                                    <a href="index.html"><img src="assets/images/logo.png" alt="Logo"></a>
+                                </div>
+                                <a class="cd-menu-trigger" href="#main-nav"><span></span></a>
+                            </header>
+                        </div>
+
+
+                        <div class="home-wrapper">
+                            <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                                <div class="home-content">
+                                    <h1> Hi I'm Caner!</h1>
+                                    <p>I create & design apps that users love!</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </footer>
-            
-        </div>                                                              <!-- Contact ends here -->
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-        <script src="assets/js/bootstrap.min.js"></script>
-        <script src="assets/js/script.js"></script>
+            </div>
+        </header>
+
+        <!-- Sections -->
+        <section id="about" class="sections3">
+            <div class="container">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="about-wrapper">
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="about-photo">
+                                <img src="assets/images/man.png" alt="About Photo" />
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div class="about-content text-left">
+                                <h4>Hi, I’m <b>Resul Caner</b> Yildirim, Experience Designer from, beautiful city of Turkey, Istanbul.</h4>
+                                <p> Since 2012 I've been working with compainies and startups to help them to understand their customers and products. My aim is to improve my clients' products and make them - and their users - happy. Today, I work at Tmob, a design & development agency in Istanbul to design and create apps that users love.</p>
+                                <p> Also, I'm a community person! I like sharing my knowledge with others. As a result of my passion and contribution to community, Google awarded me with <b>Google Design Expert</b> title. Being  a user group co-organizer at <b>GDG Istanbul</b> since 2013 is one of the biggest reasons of it. I'm organizing, participating, and speaking at events. I share my experience in User Experience via blog posts, conferences or workshops at Droidcon, DevFest, and other conferences.</p>
+                                <a href="#" class="btn btn-default">Hire Me !</a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>	
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="features" class="sections lightbg">
+
+            <div class="heading-content text-center">
+                <h3>My Working Process</h1>
+                    <p>From idea to launch I'm always with you!</p>
+            </div>
+
+            <div class="container text-center">
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="features-wrapper">
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg design">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-screen"></i>
+                                    <h6><a href="#">Design</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg development">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-magic-wand"></i>
+                                    <h6><a href="#">Consultancy</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg testing">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-dinner"></i>
+                                    <h6><a href="#">Testing</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="features-bg launch">
+
+                                <div class="features-item">
+                                    <i class="lnr lnr-rocket"></i>
+                                    <h6><a href="#">Launch</a></h6>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+        <section id="experience" class="experience">
+            <div class="overlay sections">
+                <div class="container">
+                    <div class="row">
+                        <div class="experience-wrapper">
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="experience-content">
+
+                                    <h4>Work Experience</h4>
+
+                                    <div class="content-details content-border">
+                                        <h5><b>Tmob</b> | User Researcher & UX Designer</h5>
+                                        <h6>Sep 2017 - <b>Current</b></h6>
+                                        <p> Conduct User Research, Usability Testing & Prototyping, UX Optimisation, Interaction Design</p>
+                                    </div>
+
+                                    <div class="content-details">
+                                        <h5><b>InnovationBox</b> | UX Designer </h5>
+                                        <h6>Nov 2014 - Sep 2017</h6>
+                                        <p>User Research, Usability Testing & Prototyping, UX Optimisation, Interaction Design</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="experience-content">
+
+                                    <h4>Education</h4>
+
+                                    <div class="content-details content-border">
+                                        <h5><b>Academy of Art</b> | Art Education</h5>
+                                        <h6>Sep 2016 - June 2020</h6>
+                                        <p>I study remote <b>Art Education</b> program to improve my skills / knowledge on Art and Design.</p>
+                                    </div>
+
+                                    <div class="content-details">
+                                        <h5><b>Beykent University</b> | Computer Engineering</h5>
+                                        <h6>Sep 2013 - June 2018</h6>
+                                        <p><b>Computer Engineering</b> program helped me to understand how a computer system works and interacts with humans.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>	
+                    </div>
+                </div>
+            </div>       
+        </section>
+
+        <!-- Sections -->
+        <section id="portfolio" class="sections">
+            <div class="container">
+
+                <div class="heading-content text-center">
+                    <h3>My Latest Works</h3>
+                    <p>I work with big companies and also startups from all around the world to make them and their users happy.</p>
+                </div>
+
+                <!-- Example row of columns -->
+                <div class="row">
+                    <div class="portfolio-wrapper">
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf1.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf1.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf2.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf2.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf3.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf3.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3 col-sm-6 col-xs-12">
+                            <div class="portfolio-item">
+                                <a href="assets/images/portfolio/pf4.jpg" class="portfolio-img"><img src="assets/images/portfolio/pf4.jpg" alt="" /></a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+            </div> <!-- /container -->       
+        </section>
+
+        <!-- Sections -->
+
+        <!-- Sections -->
+        <section id="contact" class="contact">
+            <div class="overlay sections">
+                <div class="container">
+                    <div class="row">
+                        <div class="contact-wrapper">
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="contact-area">
+
+                                    <h4>Leave a message</h4>
+                                    <form>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Name*">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="email" class="form-control" placeholder="Email*">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Subject*">
+                                        </div>
+
+                                        <div class="form-group">
+                                            <textarea rows="9" class="form-control" placeholder="Message"></textarea>
+                                        </div>
+
+
+                                        <a type="submit" class="btn btn-default">Hire Me !</a>
+
+                                    </form>
+
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 col-sm-6 col-xs-12">
+                                <div class="contact-details-area">
+
+                                    <div class="contact-details">
+                                        <h4>Address</h4>
+                                        <p>Balat Mah. Fener Kirechane Sok. No:46 Fatih / Istanbul, Turkey</p>
+                                    </div>
+
+                                    <div class="contact-details">
+                                        <h4>Phone</h4>
+                                        <p>+90 546 734 7677</p>
+                                        <p>+90 538 940 6634</p>
+                                    </div>
+
+                                    <div class="contact-details">
+                                        <h4>Web</h4>
+                                        <p>Mail: hello@rcaneryildirim.com</p>
+                                        <p>Website: coux.co</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>	
+                    </div>
+                </div>
+            </div>       
+        </section>
+
+
+        <!--Footer-->
+        <footer id="footer" class="footer">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-md-6 col-md-offset-3 col-sm-12 col-xs-12">
+                        <div class="main-footer">
+
+                            <div class="social">
+                                <a href="http://twitter.com/protechman"><i class="fa fa-twitter"></i></a>
+                                <a href="http://linkedin.com/in/protechman"><i class="fa fa-linkedin"></i></a>
+                                <a href="http://medium.com/@resulcaneryildirim"><i class="fa fa-medium"></i></a>
+                                <a href="http://dribbble.com/protechman"><i class="fa dribbble fa-dribbble"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+
+
+        <script src="assets/js/vendor/jquery-1.11.2.min.js"></script>
+        <script src="assets/js/vendor/bootstrap.min.js"></script>
+
+        <script src="assets/js/plugins.js"></script>
+        <script src="assets/js/jquery.magnific-popup.js"></script>
+        <script src="assets/js/modernizr.js"></script>
+
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
